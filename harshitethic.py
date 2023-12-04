@@ -290,8 +290,3 @@ def interact(bot, update, botname, username, new):
             print(e)
             errstr = str(e)
             update.message.reply_text(errstr)
-
-
-def error(bot, update):
-    """Log Errors caused by Updates."""
-    logger.warning('Update "%s" caused error "%s)
